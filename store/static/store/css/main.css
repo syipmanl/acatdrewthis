@@ -1,0 +1,181 @@
+
+
+
+
+.toprightbox {
+	margin-right: 10px;
+}
+
+.shoppingcontainer {
+	height: 53px;
+	width: 100px;
+	margin-right:0px;
+}
+.shoppingbag-icon {
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+#cart-total {
+	color: white;
+	float: right;
+	text-align: right;
+}
+
+
+.box-element{
+	/*box-shadow: hsl(0, 0%, 80%) 0 0 16px;*/
+	background-color: #fff;
+	border-radius: 0px 0px 10px 10px;
+	padding: 10px;
+}
+
+.product{
+	border-radius: 0 0 4px 4px;
+}
+
+.thumbnail {
+	width: 100%;
+/*	border-radius: 20px 20px 0px 0px;*/
+	padding-bottom: 20px;
+}
+
+
+.cart-row {
+	display: flex;
+	align-items: flex-stretch;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ececec;
+}
+
+.row-image {
+	width: 100px;
+}
+
+.chg-quantity {
+	width: 100px;
+}
+
+.quantity {
+	display: inline-block;
+	font-weight: 700;
+	padding-right: 10px;
+}
+
+.chg-quantity {
+	width: 12px;
+	cursor: pointer;
+	display: block;
+	padding-bottom: 5px;
+}
+
+
+.form-field{
+	width: 250px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.catnav {
+	width: 85%;
+}
+
+.navbar-brand {
+	margin-left: 30px;
+	margin-bottom: -22px;
+	width: 100px;
+	height: 50%;
+}
+
+.bg-pink {
+	background-color: #ffdde0;
+}
+
+.nav-item .nav-link {
+	display: inline-block;
+	font-size: 23px;
+	font-weight: 700;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.checkoutword {
+	color: white;
+	font-size: 20px;
+}
+
+.checkoutcontainer {
+	margin-right: -15px;
+}
+
+.circle
+    {
+    width: 20px;
+    height: 20px;
+    border-radius: 250px;
+    font-size:15px;
+    color: #ffffff;
+    line-height:20px;
+    text-align: center;
+    background: #f2932a;
+  }
+
+.nohover {
+	margin-bottom: 40px;
+}
+.nohover:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.showcase {
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.row {
+	margin-right: -50px;
+	margin-left: -50px;
+}
+
+.btn-outline-secondary{
+	background-color: #f2932a;
+	color: white;
+	border-color: #f2932a;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:not(:disabled):not(.disabled):active {
+	background-color: #f5b268;
+	border-color: #f5b268;
+}
+hr {
+	width: 111%;
+}
+
+.fontchange {  
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.BackButton {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 19px;
+    color: #000;
+    display: inline-block;
+    transition-duration: 1s;
+}
+
+
+.BackButton:hover {
+    transition-duration: 1s;
+    transform: translateX(-20px);
+    color: #000;
+    text-decoration: none;
+}
