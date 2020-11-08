@@ -5,6 +5,8 @@ import datetime
 
 from .models import *
 from . utils import cookieCart, cartData, guestOrder
+from django.core.mail import send_mail
+
 
 def store(request):
 	data = cartData(request)
